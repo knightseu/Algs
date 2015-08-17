@@ -131,7 +131,7 @@ public class LC126_WordLadderII {
         Map<String, List<String>> map = new HashMap<String, List<String>>();
         Map<String, Integer> distance = new HashMap<String, Integer>();
 
-        
+        /*
         Queue<String> que = new LinkedList<String>();
         Queue<String> queNext = new LinkedList<String>();
         que.add(start);
@@ -147,7 +147,7 @@ public class LC126_WordLadderII {
         	}
         }
         
-        
+        */
         
         
         dict.add(start);
@@ -185,7 +185,10 @@ Return
 			System.out.print(s + ", ");
 		System.out.println();
 		System.out.println("-------- Calling findLadders");
-		 List<List<String>> rsts = findLaddersII("hit", "cog", dict);
+		
+		
+		List<List<String>> rsts = findLaddersII("hit", "cog", dict);
+		
 		 for (List<String> rst: rsts) {
 			 for (String s: rst) {
 				 System.out.print(s + ",");
