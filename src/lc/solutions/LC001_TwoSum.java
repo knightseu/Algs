@@ -1,4 +1,8 @@
 package lc.solutions;
+
+import java.util.Arrays;
+import java.util.HashMap;
+
 /*
  * Given an array of integers, find two numbers such that they add up to a specific target number.
 

@@ -5,7 +5,7 @@ public class LC038_CountAndSay {
     //char [] oldChars = oldString.toCharArray();
     // sb.append(String.valueOf(count) + String.valueOf(oldChars[i]));
     public String countAndSay(int n) {
-        
+        return null;
     }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,5 +1,7 @@
 package lc.solutions;
 
+import java.util.ArrayList;
+
 public class LC040CombinationSumII {
 	private ArrayList<ArrayList<Integer>> results;
 
