@@ -54,7 +54,7 @@ public class BinarySearchTreeIterator {
         	curNode = curNode.left;
         }
         
-        TreeNode rst = stack.top();
+        TreeNode rst = stack.pop();
         curNode = rst.right;
         return rst;
     }

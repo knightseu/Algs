@@ -110,12 +110,26 @@ public class TestDriver {
 		node2.neighbors.add(node2);
 		UndirectedGraphNode newnode = GraphClone.cloneGraph(node0);
 		*/
-		
+		/*
 		String s1= "a", s2="b", s3="ab";
 		InterleavingString.isInterleave(s1, s2, s3);
 		System.out.println("=====Done=====");
+		*/
+		System.out.println("The value of STRING_ONE is : " + Strings.STRING_ONE.toString());
+		System.out.println("The value of STRING_TWO is : " + Strings.STRING_TWO.toString());
 	}
 	
-	
+	public enum Strings {
+	    STRING_ONE("ONE"),
+	    STRING_TWO("TWO")
+	    ;
+	    private String text;
+	    /**
+	     * @param text
+	     */
+	    private Strings(final String text) {
+	        this.text = text;
+	    }
+	}
 
 }
