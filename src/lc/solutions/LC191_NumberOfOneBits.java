@@ -1,8 +1,8 @@
 package lc.solutions;
 /*
- * Write a function that takes an unsigned integer and returns the number of ’1' bits it has (also known as the Hamming weight).
+ * Write a function that takes an unsigned integer and returns the number of ï¿½1' bits it has (also known as the Hamming weight).
 
-For example, the 32-bit integer ’11' has binary representation 00000000000000000000000000001011, so the function should return 3.
+For example, the 32-bit integer ï¿½11' has binary representation 00000000000000000000000000001011, so the function should return 3.
  */
 public class LC191_NumberOfOneBits {
 /*
@@ -41,7 +41,7 @@ http://aggregate.ee.engr.uky.edu/MAGIC/#Population%20Count%20(Ones%20Count)
 
  */
 	
-	
+	/*
 	int hammingWeight(uint32_t n)
 	{
 	    int res = 0;
@@ -52,7 +52,8 @@ http://aggregate.ee.engr.uky.edu/MAGIC/#Population%20Count%20(Ones%20Count)
 	    }
 	    return res;
 	}
-	
+	*/
+
 	/*
 	 * The most straightforward intuition here is that we can use bit mask to extract bit of n 1 by 1, by which I have the following code:
 

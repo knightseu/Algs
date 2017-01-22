@@ -61,6 +61,6 @@ public class PascalTri {
     }
     
     public int minimumTotal(ArrayList<ArrayList<Integer>> triangle) {
-        
+        return 0;
     }
 }

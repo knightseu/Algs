@@ -27,6 +27,7 @@ public class PalindromePartitioningII {
      */
     public int minCut(String s) {
         // write your code here
+        return 0;
     }
 
 }

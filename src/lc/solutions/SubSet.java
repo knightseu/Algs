@@ -11,7 +11,8 @@ public class SubSet {
         rst.add(tmp);
         Arrays.sort(S);
         dfs(rst, tmp, S, 0);
-        return rst;
+        // return rst;
+        return null;
     }
     
     public void dfs(ArrayList<ArrayList<Integer>>  rst, ArrayList<Integer> tmp, int[] S, int pos) {

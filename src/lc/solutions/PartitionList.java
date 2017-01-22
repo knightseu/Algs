@@ -1,5 +1,7 @@
 package lc.solutions;
 
+import common.datastructure.ListNode;
+
 public class PartitionList {
 	 public ListNode partition(ListNode head, int x) {
 	        if (head == null) return null;
@@ -22,5 +24,5 @@ public class PartitionList {
 	        right.next = null;
 	        left.next = rightDummy.next;
 	        return leftDummy.next;
-	    }+
+	    }
 }

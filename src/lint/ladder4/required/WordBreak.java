@@ -31,6 +31,7 @@ public class WordBreak {
          * 2. func: canBreak[i] = canBreak[j], j<i, j+~i in dict
          * 3. initial: canBreak[0]
          */
+        return true;
     }
 
 }

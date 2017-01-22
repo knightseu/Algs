@@ -7,6 +7,6 @@ Example2: x = -123, return -321
  */
 public class ReverseInteger {
     public int reverse(int x) {
-        
+        return 0;
     }
 }

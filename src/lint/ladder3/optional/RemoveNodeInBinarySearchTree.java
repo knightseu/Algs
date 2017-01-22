@@ -77,6 +77,7 @@ public class RemoveNodeInBinarySearchTree {
     	//2. The node have only left child
     	//3. The node have only right child
     	//4. The node have both left and right child.
+		return null;
     }
     
     /**

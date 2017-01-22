@@ -1,5 +1,7 @@
 package lc.solutions;
 
+import common.datastructure.ListNode;
+
 public class ListAddTwoNumber {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (null == l1) return l2;

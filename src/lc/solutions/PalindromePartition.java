@@ -1,6 +1,6 @@
 package lc.solutions;
 
-import java.awt.List;
+// import java.awt.List;
 import java.util.ArrayList;
 
 public class PalindromePartition {
@@ -21,7 +21,7 @@ public class PalindromePartition {
     
     void dfs(String s, int start, ArrayList<String> al){
         if(start==s.length()){
-            all .add(new ArrayList<String>(al));
+            //all .add(new ArrayList<String>(al));
             return;
         }
         for(int i=start+1;i<=s.length();i++){

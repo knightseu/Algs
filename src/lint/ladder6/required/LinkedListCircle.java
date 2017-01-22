@@ -28,6 +28,7 @@ public class LinkedListCircle {
      */
     public ListNode detectCycle(ListNode head) {  
         // write your code here
+        return null;
     }
 
 }

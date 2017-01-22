@@ -4,7 +4,7 @@ public class ZigzagConversion {
     public String convert(String s, int nRows) {
         if (nRows<=1) return s;
         int len = s.length();
-        String result;
+        String result= "";
         if (len == 0) return result;	
         int zigzag =  2*nRows -2;
         
