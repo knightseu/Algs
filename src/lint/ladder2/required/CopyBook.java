@@ -41,6 +41,7 @@ public class CopyBook {
         }
 
         return end;
+    }
 
     private int countCopiers(int[] pages, int limit) {
         if (pages.length == 0) {

@@ -3,8 +3,7 @@ package lint.ladder2.required;
 /**
  * Created by xuan on 1/23/17.
  */
-public class
-WordCut {
+public class WordCut {
     /**
      *@param L: Given n pieces of wood with length L[i]
      *@param k: An integer
@@ -48,7 +47,7 @@ WordCut {
         return sum;
     }
 }
-}
+
 
 
 /*

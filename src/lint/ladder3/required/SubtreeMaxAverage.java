@@ -20,8 +20,9 @@ public class SubtreeMaxAverage {
             return 0;
         }
         if (root.left == null) {
-            return
+            return 0;
         }
+        return -1;
     }
 }
 

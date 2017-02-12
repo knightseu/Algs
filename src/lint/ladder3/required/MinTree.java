@@ -37,7 +37,7 @@ public class MinTree {
             rightval = countTree(root.right);
         }
 
-        int curSum = leftval + rightval + root.val
+        int curSum = leftval + rightval + root.val;
         if (curSum < minSum) {
             minSum = curSum;
             subTree = root;
