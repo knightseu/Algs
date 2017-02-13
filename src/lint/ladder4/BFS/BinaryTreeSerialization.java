@@ -5,6 +5,7 @@ import common.datastructure.TreeNode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 /**
  * Created by xuan on 2/9/17.
@@ -20,22 +21,25 @@ public class BinaryTreeSerialization {
         queue.offer(root);
         StringBuilder sb = new StringBuilder();
         sb.append('{');
+        LinkedList<TreeNode> que_level = new LinkedList<>();
 
         while (!queue.isEmpty()) {
             int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                TreeNode node = queue.poll();
-                if (null == node) {
-                    sb.append("#,");
-                }
-                else {
-                    sb.append(node.val);
-                    sb.append(',');
-                    queue.offer(node.left);
-                    queue.offer(node.right);
+            Boolean emptyLevel = true;
+                for (int i = 0; i < size; i++) {
+                    TreeNode node = queue.poll();
+                    if (null == node) {
+                        sb.append("#,");
+                    } else {
+                        sb.append(node.val);
+                        sb.append(',');
+                        queue.offer(node.left);
+                        queue.offer(node.right);
+                        emptyLevel = false;
+                    }
                 }
             }
-        }
+
         sb.replace(sb.length()-1, sb.length()-1, "}");
         return sb.toString();
     }
