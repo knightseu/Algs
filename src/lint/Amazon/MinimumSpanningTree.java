@@ -59,8 +59,9 @@ public class MinimumSpanningTree {
 
         }
 
-
-        return new ArrayList<Connection>();
+        if (rst.size() !=n-1)
+            return new ArrayList<Connection>();
+        return rst;
     }
 
 
