@@ -8,31 +8,29 @@ import java.util.Queue;
 /**
  * Created by xuanlin on 2/23/17.
  */
-
-class People {
-    String name;
-    HashSet<String> friends;
-
-    People (String name) {
-        this.name = name;
-        friends = new HashSet<>();
-    }
-
-    public void AddFriend(People people) {
-        if (!friends.contains(people.name)) {
-            friends.add(people.name);
-        }
-    }
-
-    public void AddFriend(String name) {
-        if (!friends.contains(name)) {
-            friends.add(name);
-        }
-    }
-}
-
-
 class SocialApp {
+    class People {
+        String name;
+        HashSet<String> friends;
+
+        People (String name) {
+            this.name = name;
+            friends = new HashSet<>();
+        }
+
+        public void AddFriend(People people) {
+            if (!friends.contains(people.name)) {
+                friends.add(people.name);
+            }
+        }
+
+        public void AddFriend(String name) {
+            if (!friends.contains(name)) {
+                friends.add(name);
+            }
+        }
+    }
+
     HashMap<String, People> peopleMap;
     SocialApp() {
         peopleMap = new HashMap<>();
@@ -87,7 +85,7 @@ class SocialApp {
 
             distance++;
         }
-
+        return distance;
     }
 }
 
