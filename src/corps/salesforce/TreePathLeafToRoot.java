@@ -1,4 +1,4 @@
-package salesforce;
+package corps.salesforce;
 
 import common.datastructure.TreeNode;
 import java.util.LinkedList;

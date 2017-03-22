@@ -14,6 +14,7 @@ public class FindMissingNumberII {
      */
     public int findMissing2(int n, String str) {
         // Write your code here
+        return 0;
     }
 }
 

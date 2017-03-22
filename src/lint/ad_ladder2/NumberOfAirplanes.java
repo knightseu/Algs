@@ -27,12 +27,10 @@ class Point{
 }
 
 public class NumberOfAirplanes {
-    /**
-     * @param intervals: An interval array
-     * @return: Count of airplanes are in the sky.
-     */
+
     public int countOfAirplanes(List<Interval> airplanes) {
         // write your code here
+        return 0;
     }
 }
 

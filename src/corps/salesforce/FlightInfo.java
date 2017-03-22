@@ -1,4 +1,4 @@
-package salesforce;
+package corps.salesforce;
 
 /**
  * Created by xuan on 2/13/17.
